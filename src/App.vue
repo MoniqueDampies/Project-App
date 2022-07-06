@@ -24,11 +24,13 @@ h1{
     font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: black;
+    color: #2c3e50;
 }
 
 nav {
   padding: 30px;
+  text-transform: uppercase;
+  line-height: 1px;
 }
 
 nav a {
@@ -37,6 +39,6 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #7EA8F8;
 }
 </style>
