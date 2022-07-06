@@ -23,9 +23,10 @@ const routes = [
     component: () => import('../views/Home.vue')
   },
   {
-    path: '/property',
+    path: '/property:id',
     name: 'single properties page',
-    component: () => import('../views/Property.vue')
+    component: () => import('../views/Property.vue'),
+    props: true,
   },
   {
     path: '/properties',
